@@ -280,4 +280,51 @@ header nav a {
     display: flex;
   }
 }
-
+.s7 {
+  background: url(images/s7_bg.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  .inner {
+    justify-content: center;
+  }
+  h1 {
+    color: white;
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+    line-height: 26px;
+    margin-top: 119px;
+    margin-bottom: 100px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+  }
+  .comment {
+    display: flex;
+    align-items: center;
+    background: #303030;
+    margin-bottom: 200px;
+    min-height: 284px;
+    h2, p {
+      margin: 0;
+      margin-left: 62px;
+      margin-right: 40px;
+    }
+    h2 {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 400;
+      font-size: 20px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+      line-height: 26px;
+      margin-bottom: 24px;
+    }
+    p {
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: #e8e8e8;
+      line-height: 26px;
+    }
+  }
+}
