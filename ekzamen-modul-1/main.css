@@ -22,6 +22,9 @@ body {
   display: flex;
   align-items: center;
 }
+.inner input[type=search]:focus {
+  border: 2px solid red;
+}
 .inner button:hover {
   background: #300e9f;
 }
@@ -41,6 +44,10 @@ body {
 }
 .s1 .inner {
   flex-direction: column;
+}
+.s1 .inner .search_btn {
+  position: absolute;
+  margin: 0 10px;
 }
 .s1 h1 {
   font-size: 48px;
@@ -203,8 +210,8 @@ header nav a {
 }
 
 .s4 {
-  background: url(images/bg_s4.png);
-  background-size: cover;
+  background: #323131 url(images/bg_s4.png) no-repeat;
+  background-position: center;
   min-height: 337px;
 }
 .s4 .inner {

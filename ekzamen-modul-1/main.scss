@@ -18,6 +18,11 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  input[type=search] {
+    &:focus {
+      border: 2px solid red;
+    }
+  }
   button {
     &:hover {
       background: #300e9f;
@@ -40,6 +45,11 @@ body {
   justify-content: center;
   .inner {
    flex-direction: column;
+    .search_btn {
+      position: absolute;
+      margin: 0 10px;
+
+    }
   }
 h1 {
   font-size: 48px;
@@ -202,8 +212,8 @@ header nav a {
   }
 }
   .s4 {
-    background: url(images/bg_s4.png);
-    background-size: cover;
+    background: #323131 url(images/bg_s4.png) no-repeat;
+    background-position: center;
     min-height: 337px;
     .inner {
       display: flex;
