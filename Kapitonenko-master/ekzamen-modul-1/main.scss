@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:400,400i,700,700i&display=swap');
+.cls-2 {
+  fill: #ffffff;
+}
+body {
+  margin: 0;
+}
+a {
+  color: white;
+}
+#logo {
+  margin: 0 auto;
+}
+.inner {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.075em;
+  line-height: 26px;
+  input[type=search] {
+    &:focus {
+      border: 2px solid red;
+    }
+  }
+  button {
+    color: white;
+    background: #4075FF;
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 0.075em;
+    &:hover {
+      background: #300e9f;
+    }
+  }
+  a {
+    &:hover {
+      color: #a25112;
+    }
+  }
+  h1 {
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+    line-height: 26px;
+    font-weight: 400;
+  }
+}
+.s1 {
+  background: url(images/s1_bg.png);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  .inner {
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 14px;
+    .search_btn {
+      position: absolute;
+      margin: 0 10px;
+    }
+  }
+  h1 {
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    margin: 0;
+  }
+  h3 {
+    font-size: 22px;
+    letter-spacing: 0.31em;
+    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 54px;
+  }
+  input[type=search]{
+    width: 500px;
+    height: 60px;
+    border: 1px solid white;
+    box-sizing: border-box;
+    letter-spacing: 0.2em;
+    color: #999999;
+    text-align: center;
+    vertical-align: middle;
+  }
+  button{
+    width: 150px;
+    height: 60px;
+    border: 1px solid white;
+    font-size: 14px;
+    box-sizing: border-box;
+    margin-left: -6px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    vertical-align: middle;
+  }
+  a {
+    margin: 0 auto;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    position: absolute;
+    bottom:140px;
+    svg {
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+}
+header {
+  background: #4075FF;
+  display: flex;
+    .logot {
+      font-size: 24px;
+      line-height: 26px;
+      letter-spacing: 0.1em;
+      text-decoration: none;
+    }
+  }
+header .inner, .s4 .inner {
+  justify-content: space-between;
+}
+header nav {
+  color:white;
+  font-family: 'Aleo', serif;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  margin: 40px 0;
+  .h1_h {
+    margin-left: 38px;
+  }
+}
+header nav a {
+  display: inline-block;
+  margin: 0;
+  text-decoration: none;
+  color: white;
+}
+.s3 {
+  background: url(images/bg_s3.png);
+  background-size: cover;
+  height: 685px;
+  .inner {
+    padding-top: 120px;
+  }
+  .opis-s3 {
+    min-width: 635px;
+    h1 {
+      margin: 0;
+      margin-bottom: 75px;
+    }
+    p {
+      font-size: 16px;
+      letter-spacing: 0.1em;
+      line-height: 26px;
+      margin: 0;
+      margin-bottom: 38px;
+    }
+    button{
+      width: 223px;
+      height: 60px;
+      border: none;
+      margin-top: 12px;
+      &:hover {
+        background: #300e9f;
+        color: #d3cfc6;
+      }
+    }
+  }
+  .img1 {
+    float: left;
+    margin-bottom: 5px;
+  }
+  .img2 {
+    float: right;
+  }
+}
+.s4 {
+  background: #323131 url(images/bg_s4.png) no-repeat;
+  background-position: center;
+  min-height: 337px;
+  .inner {
+    div {
+      margin-top: 100px;
+      text-align: center;
+      background: #303030;
+    }
+  }
+}
+.s5 {
+  background: url(images/bg_s5.png);
+  background-size: cover;
+  min-height: 700px;
+}
+.opis-s5 {
+  width: 535px;
+  background: #2f2b2a;
+  opacity: 0.9;
+  margin-top: 229px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  h3, h2, p, button {
+    margin: 0;
+    margin-left: 30px;
+    margin-right: 33px;
+    color: #e8e8e8;
+    font-weight: 400;
+    margin-bottom: 33px;
+  }
+  h3,h2 {
+    font-size: 20px;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  h3 {
+    margin-top: 50px;
+  }
+  p {
+    margin-bottom: 52px;
+  }
+  button {
+    width: 225px;
+    height: 60px;
+    background: #496bfe;
+    border: none;
+    margin-bottom: 50px;
+  }
+}
+.s6 {
+  background: url(images/bg_s6.png);
+  background-size: cover;
+  min-height: 700px;
+  .inner {
+    justify-content: flex-end;
+  }
+}
+.s7 {
+  background: url(images/s7_bg.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  .inner {
+    justify-content: center;
+  }
+  h1 {
+    margin-top: 119px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  .comment {
+    display: flex;
+    align-items: center;
+    background: #303030;
+    margin-bottom: 200px;
+    h2, p {
+      margin: 0;
+      margin-left: 62px;
+      margin-right: 40px;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 20px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+    p {
+      font-weight: 300;
+      font-size: 16px;
+      color: #e8e8e8;
+      .fa {
+        color: #4075FF;
+
+        &.pull-left {
+          margin-right: 10px;
+          margin-top: -10px;
+        }
+      }
+    }
+  }
+}
+footer {
+  background: #232323;
+  .inner {
+    justify-content: center;
+    flex-direction: column;
+  }
+  h2 {
+    font-size: 24px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 120px;
+  }
+  h4 {
+    font-size: 15px;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 16px;
+    margin-bottom: 31px;
+  }
+  .seti {
+    margin-bottom: 54px;
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    a {
+      color: white;
+      &:nth-child(3) {
+        color: #3B69E4;
+      }
+      &:hover {
+        color: #0c027e;
+      }
+    }
+  }
+}
+
