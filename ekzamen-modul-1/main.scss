@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,400i,700,700i&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Aleo|Josefin+Sans:400,400i,700,700i&display=swap');
-
 .cls-2 {
   fill: #ffffff;
 }
 body {
   margin: 0;
 }
-#logo {
-  margin: 0 auto;
+a {
+  color: white;
 }
 #logo {
   margin: 0 auto;
@@ -18,20 +17,37 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  letter-spacing: 0.075em;
+  line-height: 26px;
   input[type=search] {
     &:focus {
       border: 2px solid red;
     }
   }
   button {
+    color: white;
+    background: #4075FF;
+    font-family: 'Aleo', serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: 0.075em;
     &:hover {
       background: #300e9f;
     }
-    }
+  }
   a {
     &:hover {
       color: #a25112;
     }
+  }
+  h1 {
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+    line-height: 26px;
+    font-weight: 400;
   }
 }
 .s1 {
@@ -41,69 +57,54 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-family: 'Josefin Sans', sans-serif;
   justify-content: center;
   .inner {
-   flex-direction: column;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 14px;
     .search_btn {
       position: absolute;
       margin: 0 10px;
-
     }
   }
-h1 {
-  font-size: 48px;
-  letter-spacing: 0.1em;
-  color: white;
-  margin: 0;
-}
-h3 {
-  font-size: 22px;
-  letter-spacing: 0.31em;
-  color: white;
-  line-height: 26px;
-  font-weight: 400;
-  margin: 0;
-  margin-top: 24px;
-  margin-bottom: 54px;
-}
+  h1 {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 48px;
+    letter-spacing: 0.1em;
+    margin: 0;
+  }
+  h3 {
+    font-size: 22px;
+    letter-spacing: 0.31em;
+    margin: 0;
+    margin-top: 24px;
+    margin-bottom: 54px;
+  }
   input[type=search]{
-      width: 500px;
-      height: 60px;
+    width: 500px;
+    height: 60px;
     border: 1px solid white;
     box-sizing: border-box;
-    font-size: 14px;
     letter-spacing: 0.2em;
     color: #999999;
-    line-height: 26px;
-    font-weight: 400;
     text-align: center;
     vertical-align: middle;
   }
   button{
     width: 150px;
     height: 60px;
-    background: #4075FF;
     border: 1px solid white;
-    box-sizing: border-box;
-    color: white;
-    margin-left: -6px;
-    font-family: 'Aleo', serif;
-    text-transform: uppercase;
     font-size: 14px;
-    line-height: 26px;
+    box-sizing: border-box;
+    margin-left: -6px;
     letter-spacing: 0.1em;
     text-align: center;
     vertical-align: middle;
   }
   a {
-      margin: 0 auto;
-      font-size: 14px;
-      letter-spacing: 0.2em;
-      color: white;
-      line-height: 26px;
-      font-weight: 400;
-      text-decoration: none;
+    margin: 0 auto;
+    letter-spacing: 0.2em;
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -118,20 +119,16 @@ h3 {
 header {
   background: #4075FF;
   display: flex;
-  justify-content: space-between;
-.inner {
-  justify-content: space-between;
   .logot {
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
     line-height: 26px;
     letter-spacing: 0.1em;
-    color: white;
     text-decoration: none;
   }
 }
+header .inner, .s4 .inner {
+  justify-content: space-between;
 }
-
 header nav {
   color:white;
   font-family: 'Aleo', serif;
@@ -140,7 +137,6 @@ header nav {
   line-height: 26px;
   font-weight: 400;
   margin: 40px 0;
-
   .h1_h {
     margin-left: 38px;
   }
@@ -155,30 +151,18 @@ header nav a {
   background: url(images/bg_s3.png);
   background-size: cover;
   height: 685px;
-  font-family: 'Josefin Sans', sans-serif;
-
   .inner {
-    display: flex;
-    justify-content: space-between;
     padding-top: 120px;
   }
   .opis-s3 {
     min-width: 635px;
     h1 {
-      font-family: 'Aleo', serif;
-      color: #FFFFFF;
-      font-size: 36px;
-      line-height: 26px;
-      font-weight: 400;
       margin: 0;
       margin-bottom: 75px;
     }
     p {
-      font-family: 'Josefin Sans', sans-serif;
-      font-weight: 400;
       font-size: 16px;
       letter-spacing: 0.1em;
-      color: #FFFFFF;
       line-height: 26px;
       margin: 0;
       margin-bottom: 38px;
@@ -186,14 +170,6 @@ header nav a {
     button{
       width: 223px;
       height: 60px;
-      background: #4075FF;
-      box-sizing: border-box;
-      color: white;
-      font-family: 'Aleo', serif;
-      text-transform: uppercase;
-      font-size: 16px;
-      line-height: 26px;
-      letter-spacing: 0.075em;
       border: none;
       margin-top: 12px;
       &:hover {
@@ -205,38 +181,28 @@ header nav a {
   .img1 {
     float: left;
     margin-bottom: 5px;
-
   }
   .img2 {
     float: right;
   }
 }
-  .s4 {
-    background: #323131 url(images/bg_s4.png) no-repeat;
-    background-position: center;
-    min-height: 337px;
-    .inner {
-      display: flex;
-      justify-content: space-between;
-      div {
-        margin-top: 100px;
-        text-align: center;
-        background: #303030;
-      }
-    }
-    h1 {
-      font-family: 'Aleo', serif;
-      color: #FFFFFF;
-      font-size: 36px;
-      line-height: 26px;
-      font-weight: 400;
+.s4 {
+  background: #323131 url(images/bg_s4.png) no-repeat;
+  background-position: center;
+  min-height: 337px;
+  .inner {
+    div {
+      margin-top: 100px;
+      text-align: center;
+      background: #303030;
     }
   }
+}
 .s5 {
   background: url(images/bg_s5.png);
   background-size: cover;
   min-height: 700px;
-  }
+}
 .opis-s5 {
   width: 535px;
   background: #2f2b2a;
@@ -245,52 +211,30 @@ header nav a {
   justify-content: flex-start;
   display: flex;
   flex-direction: column;
-
   h3, h2, p, button {
     margin: 0;
     margin-left: 30px;
     margin-right: 33px;
-  }
-
-  h3 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    letter-spacing: 0.075em;
     color: #e8e8e8;
-    line-height: 26px;
-    margin-top: 50px;
+    font-weight: 400;
     margin-bottom: 33px;
   }
-
+  h3,h2 {
+    font-size: 20px;
+  }
   h2 {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    color: #FFFFFF;
     text-transform: uppercase;
-    line-height: 26px;
-    margin-bottom: 33px;
   }
-
+  h3 {
+    margin-top: 50px;
+  }
   p {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: #e8e8e8;
-    line-height: 26px;
     margin-bottom: 52px;
   }
-
   button {
     width: 225px;
     height: 60px;
     background: #496bfe;
-    color: white;
-    font-family: 'Aleo', serif;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 0.075em;
     border: none;
     margin-bottom: 50px;
   }
@@ -301,7 +245,6 @@ header nav a {
   min-height: 700px;
   .inner {
     justify-content: flex-end;
-    display: flex;
   }
 }
 .s7 {
@@ -313,13 +256,8 @@ header nav a {
     justify-content: center;
   }
   h1 {
-    color: white;
-    font-family: 'Aleo', serif;
-    font-size: 36px;
-    line-height: 26px;
     margin-top: 119px;
     margin-bottom: 100px;
-    font-weight: 400;
     display: flex;
     justify-content: center;
   }
@@ -334,20 +272,15 @@ header nav a {
       margin-right: 40px;
     }
     h2 {
-      font-family: 'Josefin Sans', sans-serif;
       font-weight: 400;
       font-size: 20px;
-      color: #FFFFFF;
       text-transform: uppercase;
-      line-height: 26px;
       margin-bottom: 30px;
     }
     p {
-      font-family: 'Josefin Sans', sans-serif;
       font-weight: 300;
       font-size: 16px;
       color: #e8e8e8;
-      line-height: 26px;
       .fa {
         color: #4075FF;
 
@@ -366,22 +299,15 @@ footer {
     flex-direction: column;
   }
   h2 {
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 24px;
-    line-height: 26px;
     letter-spacing: 0.14em;
-    color: white;
-    font-weight: bold;
     text-transform: uppercase;
     margin: 0;
     margin-top: 120px;
   }
   h4 {
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 15px;
-    line-height: 26px;
     letter-spacing: 0.1em;
-    color: white;
     font-weight: 400;
     margin: 0;
     margin-top: 16px;
@@ -392,18 +318,14 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 170px;
-
     a {
       color: white;
-
       &:nth-child(3) {
         color: #3B69E4;
       }
-
       &:hover {
         color: #0c027e;
       }
     }
   }
 }
-
